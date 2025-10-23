@@ -35,16 +35,5 @@ It enables users to upload any CSV dataset and automatically performs data explo
 | **Reporting** | ReportLab |
 | **Environment Management** | Python-dotenv |
 
----
-## Project Structure
-InsightFlow/
-├── agent.py # Handles Gemini API calls and prompt engineering
-├── app.py # Streamlit frontend for user interaction
-├── executor.py # Executes AI-generated code securely and captures outputs
-├── utils.py # Utility functions for capturing stdout, error formatting, etc.
-├── outputs/ # Generated plots and figures
-├── uploads/ # Uploaded CSV files
-├── auto_eda_report.pdf # Example generated EDA report
-├── requirements.txt # Python dependencies
-├── .env # Environment variables (contains GOOGLE_API_KEY)
-└── README.md # Project documentation
+
+
