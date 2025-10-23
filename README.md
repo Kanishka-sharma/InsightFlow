@@ -38,12 +38,13 @@ It enables users to upload any CSV dataset and automatically performs data explo
 ---
 ## Project Structure
 InsightFlow/
-├── agent.py            # Gemini API integration and prompt design
-├── executor.py         # Executes AI-generated EDA code safely
-├── app.py              # Streamlit interface and workflow orchestration
-├── utils.py            # Utility functions (logging, safe exec, etc.)
-├── outputs/            # Generated plots and figures
-├── uploads/            # Uploaded CSV files
-├── requirements.txt    # Python dependencies
-├── .env                # Environment variables (ignored in Git)
-└── README.md           # Documentation
+├── agent.py # Handles Gemini API calls and prompt engineering
+├── app.py # Streamlit frontend for user interaction
+├── executor.py # Executes AI-generated code securely and captures outputs
+├── utils.py # Utility functions for capturing stdout, error formatting, etc.
+├── outputs/ # Generated plots and figures
+├── uploads/ # Uploaded CSV files
+├── auto_eda_report.pdf # Example generated EDA report
+├── requirements.txt # Python dependencies
+├── .env # Environment variables (contains GOOGLE_API_KEY)
+└── README.md # Project documentation
